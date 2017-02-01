@@ -1,3 +1,5 @@
+#18/20
+
 #SECTION 2 - FUNCTIONS (20PTS TOTAL)
 
 #PROBLEM 1 (Length of String - 3pts)
@@ -69,6 +71,9 @@ find(1)
 find(2)
 find(3)
 print()
+
+# Lee - Use a for loop (DRY principle)
+
 # PROBLEM 5 (Random int - 3pts)
 # Generate a random integer between 1 and 10 (1 and 10 both included),
 # but only use the random() function (randrange is not allowed here)
@@ -83,6 +88,8 @@ def integer(k):
 integer(random.random())
 
 print()
+
+# Lee - This should not trigger only when k < 1.  The whole range needs to be shifted to make it work.  Convert to int (-2)
 
 
 # PROBLEM 6 (add me, multiply me - 3pts)

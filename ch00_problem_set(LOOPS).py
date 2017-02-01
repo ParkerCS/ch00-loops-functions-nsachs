@@ -1,3 +1,4 @@
+#19/22
 # LOOPS (22pts TOTAL)
 
 # PROBLEM 1 (Fibonacci - 4pts)
@@ -10,7 +11,7 @@ a = 1
 b = 1
 
 while a < 1000 and b < 1000:
-    print(a)
+    print(a) # This does two steps each time through loop
     print(b)
     a += b
     b += a
@@ -64,6 +65,8 @@ percent_success /= 50000
 print("The likelihood that the value previously rolled is lower every time is: ", round(percent_success * 100, 2), "%.")
 
 print()
+
+# Lee - This is very much like what Franny submitted.  Same misunderstandings.  Take care if you are working together.  This doesn't really do a lot to solve this problem.  You divide percent success by 50000 (why?).  You divide by i in the loop (why?).  You build a list, but don't use it.  See franny's for solution.(-3)
 
 # PROBLEM 4 (Number Puzzler - 6pts)
 # A, B, C, and D are all different digits.
